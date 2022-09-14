@@ -17,10 +17,16 @@
       <h3>This is a demo for clicking images and having pop-ups. Click on the bench</h3>
     </div>
     <section class="park">
+      
       <div class="container">
-        <img src="img/park.jpg" class="img-fluid">
-        <a class="btn pop lunarxp-launch-site" data-content="LunarXP Launch Site" data-placement="top" data-toggle="popover" data-trigger="focus" title="" id="btn1" tabindex="0" role="button"></a>
+        <img id="park-img" src="img/park.jpg" class="img-fluid">
       </div>
+      
+      <div id="myModal" class="modal">
+        <span class="close">&times;</span>
+        <div id="caption"></div>
+      </div>
+      
     </section>
     
     <script src="js/script.js"></script>
