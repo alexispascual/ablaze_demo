@@ -1,5 +1,25 @@
-#park-img{
+.img-fluid{
   z-index: 1;
+}
+
+#object-highlight {
+  position:relative;
+  height:476px;
+  width:635px;
+  margin:0 auto;
+}
+
+#object-highlight img {  
+  position: absolute;
+  left:0;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+#object-highlight img.transparent {
+opacity:0;
 }
 
 .modal {
